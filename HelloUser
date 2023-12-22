@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+System.out.println("Hello, <user>");
+Scanner sc = new Scanner(System.in);
+System.out.println("Введите имя пользователя...");
+String phrase1 = sc.nextLine();
+System.out.print("Hello, " + phrase1);
+    }
+}
